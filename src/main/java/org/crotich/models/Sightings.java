@@ -2,7 +2,7 @@ package org.crotich.models;
 
 import java.time.Instant;
 
-public class sightings {
+public class Sightings {
     private int id;
     private int animal_id;
     private String location;
@@ -10,7 +10,7 @@ public class sightings {
     private String ranger_name;
     private boolean deleted=false;
 
-    public sightings(int animal_id, String location, String ranger_name) {
+    public Sightings(int animal_id, String location, String ranger_name) {
         this.animal_id = animal_id;
         this.location = location;
         this.ranger_name = ranger_name;
