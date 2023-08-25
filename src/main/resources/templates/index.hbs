@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+<nav class="navbar navbar-expand-md navbar-yellow bg-yellow">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#">
+            <img
+                    src="/images/logo.jpg"
+                    alt="Wild Life Tracker "
+                    width="10"
+                    height="30"
+                    class="d-inline-block align-text-top rounded-circle"
+            />
+            WILD LIFE TRACKER
+        </a>
+
+        <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navmenu"
+        >
+            <span class="navbar toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+
+        </div>
+    </div>
+</nav>
+
+
+<!-- introduction section -->
+<section class="p-1 d-flex text-center align-items-center justify-content-center">
+    <div class="d-flex align-items-center justify-content-center">
+        <div class="d-sm-flex align-items-center justify-content-center">
+            <div class="intro-text1 my-5 p-1">
+                <h1 class="align-items-center justify-content-between">
+                    <span class="text-warning"> Wild life Tracker </span>
+                </h1>
+
+                <p class="lead">
+                    Enter the details of the spotted animal below:
+                </p>
+                <div class="container">
+
+
+                    <div class="row p-2 m-2">
+                        <p class="lead text-success">
+                            If animal does not have a number tag (register then enter the sightings below):
+                        </p>
+                        <a href="/animal/add">
+                            <button type="button" class="btn btn-success btn-lg col-md-4">
+                                Register an animal
+                            </button>
+                        </a>
+                    </div
+
+                    <div class="row p-2 m-2">
+                        <p class="lead text-success  d-flex align-items-center justify-content-center">
+                            If animal has a number tag enter tagging below:
+                        </p>
+                        <a href="/wildlife/add">
+                            <button type="button" class="btn btn-success btn-lg col-md-4">
+                                Enter Sighting
+                            </button>
+                        </a>
+                    </div
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+</body>
+</html>
