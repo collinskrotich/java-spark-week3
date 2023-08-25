@@ -1,6 +1,6 @@
-package org.phelister.Constants;
+package org.crotich.constants;
 
-public class Constants {
+public class constants {
     public static final String newBorn = "NEWBORN";
     public static final String young = "YOUNG";
     public static final String adult ="ADULT";
