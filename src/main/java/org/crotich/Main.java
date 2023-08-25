@@ -14,13 +14,13 @@ public class Main {
     public static void main(String[] args) {
         staticFileLocation("/public");
         get("/", (req, res)->{
-            return SharedUtils.render(new HashMap<>(), "index.hbs");
+            return SharedUtils.render(new HashMap<>(), "templates/index.hbs");
         });
         get("/wildlife/add", (req, res)->{
-            return SharedUtils.render(new HashMap<>(), "wildlife-details.hbs");
+            return SharedUtils.render(new HashMap<>(), "templates/wildlife-details.hbs");
         });
         get("/animal/add", (req, res)->{
-            return SharedUtils.render(new HashMap<>(), "animal-details.hbs");
+            return SharedUtils.render(new HashMap<>(), "templates/animal-details.hbs");
         });
 
         post("/create-sighting", (req, res)->{
